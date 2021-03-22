@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import styled from "@emotion/styled"
 import Link from 'next/link';
+import { FeedbackForm } from "@components/FeedbackForm";
 
 const title: string = "AwesomeBlog";
 
@@ -27,6 +28,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
         <BlogTitle className={styles.title}>
           {title}
         </BlogTitle>
+        <FeedbackForm />
         <List>
           {posts.map((post) => {
 
