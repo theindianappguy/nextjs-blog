@@ -1,0 +1,6 @@
+{
+    "editor.fontWeight": null,
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    }
+}
